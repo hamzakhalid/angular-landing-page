@@ -1,0 +1,54 @@
+.landing-banner-content {
+  padding-top: 160px;
+
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    h3 {
+      font-size: 100px;
+      font-weight: 400;
+      color: #ffffff;
+      width: 640px;
+    }
+
+    button {
+      background-color: #ffb400;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 60px;
+      color: #ffffff;
+      border-radius: 50px;
+      width: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing-banner-content {
+    padding: 0 45px;
+
+    .left-content {
+      gap: 30px;
+
+      h3 {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 57.15px;
+        width: 100%;
+      }
+
+      button {
+        width: 160px;
+        height: 33px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+      }
+    }
+  }
+}

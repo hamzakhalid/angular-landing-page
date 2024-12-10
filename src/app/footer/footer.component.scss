@@ -1,0 +1,33 @@
+footer {
+  margin-top: 170px;
+
+  .footer-content {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+
+    h5 {
+      color: #f5f6fa;
+      font-family: Poppins;
+      font-size: 50px;
+      font-weight: 500;
+      line-height: 75px;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    margin-top: 90px;
+
+    .footer-content {
+      h5 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+      }
+    }
+  }
+}
