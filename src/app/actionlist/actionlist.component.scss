@@ -1,0 +1,111 @@
+.list-section {
+  margin-top: 130px;
+
+  .list-main {
+    max-width: 670px;
+    margin: 0 auto;
+
+    .list-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 55px;
+      align-items: center;
+
+      h4 {
+        color: #6c5ce7;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 68.58px;
+      }
+
+      .three-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        align-items: center;
+
+        button {
+          background-color: #a29bfe;
+          font-weight: 300;
+          font-size: 40px;
+          line-height: 60px;
+          color: #ffffff;
+          width: 670px;
+          height: 68px;
+          border-radius: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        p {
+          color: #6c5ce7;
+          font-weight: 300;
+          font-size: 40px;
+          line-height: 60px;
+          margin-bottom: 2px;
+          text-align: center;
+        }
+
+        .end-btn {
+          width: 305px;
+          height: 68px;
+          border-radius: 50px;
+          background-color: #ffb400;
+          font-weight: 500;
+          font-size: 40px;
+          line-height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list-section {
+    margin-top: 61px;
+    padding: 0 45px;
+
+    .list-main {
+      .list-inner {
+        gap: 38px;
+
+        h4 {
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 34px;
+        }
+
+        .three-btns {
+          gap: 11px;
+
+          button {
+            width: 213px;
+            height: 34px;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 28px;
+          }
+
+          p {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+          }
+
+          .end-btn {
+            width: 213px;
+            height: 34px;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}
