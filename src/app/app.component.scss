@@ -1,0 +1,17 @@
+.landing-banner {
+  background: url(../../public/assets/images/banner.png);
+  background-position: center center;
+  background-size: cover;
+  height: 1040px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .landing-banner {
+    background: url(../../public/assets/images/mobile-banner.png);
+    height: 610px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
